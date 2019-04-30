@@ -1,0 +1,22 @@
+.faq-question--title{
+    display: grid;
+    grid-template-columns: 1fr 40px;
+    grid-template-rows: 10px 35px;
+}
+.faq-question--description{
+    margin:  0 0 20px 20px;
+    padding: 0 0 20px 20px;
+    border-left: 2px solid #FFDCDC;
+}
+p{
+    margin: 0 !important;
+    font-family: Poppins;
+}
+.thaman-color{
+    border-bottom: 2px solid #F68080;
+    margin-bottom: 10px;
+}
+.expand-icon{
+    margin-top: 5px;
+    color: #F68080;
+}

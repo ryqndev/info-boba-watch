@@ -1,0 +1,13 @@
+body{
+    padding: 40px 0 40px 0;
+}
+.faq-title{
+    font-size: 104px;
+    height: 200px;
+    text-align: center;
+    color: #dddddd;
+}
+.faq-holder{
+    width: 60vw;
+    margin: 0 auto;
+}
