@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Collapse from '@material-ui/core/Collapse';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
-import './FAQPanel.css';
+import './styles/FAQPanel.css';
 
 export class FAQPanel extends Component {
     state = {
@@ -21,8 +21,7 @@ export class FAQPanel extends Component {
                     </div>
                 </div>
                 <Collapse in={this.state.open} >
-                    <div className="faq-question--description">
-                        {this.props.question}
+                    <div className="faq-question--description" dangerouslySetInnerHTML={{__html: this.props.desc}}>
                     </div>
                 </Collapse>
             </div>

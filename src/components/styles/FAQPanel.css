@@ -1,0 +1,58 @@
+.faq-question--title{
+    display: grid;
+    grid-template-columns: 1fr 40px;
+    grid-template-rows: 0px 35px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.faq-question--description{
+    margin:  10px 0 10px 3vw;
+    padding-left: 20px;
+    border-left: 3px solid #FFDCDC;
+    line-height: 25px;
+    color: #5f5f5f;
+}
+.thaman-color{
+    border-bottom: 1px solid #EFEFEF;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.expand-icon{
+    color: #F68080;
+}
+.images{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: repeat(3, 15vw);
+}
+.images-android{
+    height: 27.2vw;
+}
+.images-ios{
+    height: 26.5vw;
+}
+.image{
+    background-color: #FFAFA4;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#android-1{
+    background-image: url('../../assets/android_step_1-min.png');
+}
+#android-2{
+    background-image: url('../../assets/android_step_2-min.png');
+}
+#android-3{
+    background-image: url('../../assets/android_step_3-min.png');
+}
+#ios-1{
+    background-image: url('../../assets/ios_step_1-min.png');
+}
+#ios-2{
+    background-image: url('../../assets/ios_step_2-min.png');
+}
+#ios-3{
+    background-image: url('../../assets/ios_step_3-min.png');
+}
