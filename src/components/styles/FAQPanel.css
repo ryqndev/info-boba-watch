@@ -1,7 +1,6 @@
 .faq-question--title{
     display: grid;
     grid-template-columns: 1fr 40px;
-    grid-template-rows: 0px 35px;
     font-weight: 500;
     font-size: 22px;
 }
@@ -55,4 +54,10 @@
 }
 #ios-3{
     background-image: url('../../assets/ios_step_3-min.png');
+}
+
+@media only screen and (max-width: 800px){
+    .faq-question--title{
+        font-size: 20px;
+    }
 }

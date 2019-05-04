@@ -1,7 +1,7 @@
 body{
     padding: 40px 0 40px 0;
 }
-.faq-title{
+.faq-section--label{
     font-size: 50px;
     margin:  50px 0 50px 12vw;
     padding-left: 5vw;
@@ -11,7 +11,46 @@ body{
     border-bottom: 3px solid #F68080;
     white-space: nowrap;
 }
-.faq-title span{
+.faq-section--label span{
     font-size: 20px;
     color: #BBBBBB;
+}
+.faq-title--holder{
+    display: grid;
+    grid-template-columns: 100px 300px;
+    grid-template-rows: 1fr;
+    width: 400px;
+    margin: 30px auto;
+    padding-top: 20px;
+}
+.faq-title--logo{
+    background-image: url('./assets/logo-no-bg.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;    
+    margin-top: -45px;
+}
+
+@media only screen and (max-width: 800px){
+    .faq-section--label{
+        font-size: 25px;
+        /* margin: 10vw; */
+        margin: 5vw 0 10vw 10vw;
+        padding: 0;
+    }
+    .faq-section--label span{
+        font-size: 12px;
+        padding: 0;
+    }
+    .faq-title--holder{
+        padding: 0;
+        width: 300px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .faq-title--logo{  
+        margin-top: 0;
+    }
 }

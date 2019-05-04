@@ -58,7 +58,7 @@ const theme = createMuiTheme({
         h1: {
             fontFamily: 'Poppins',
             fontWeight: 700,
-            color: '#FFFFFF',
+            color: '#000000',
             fontSize: 44,
             marginBottom: 20
         },
