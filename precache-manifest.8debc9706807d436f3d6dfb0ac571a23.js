@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f05a62c27f7bed2fcf4a86e6709729e7",
+    "revision": "05522ac1850e533e7222bd8c836212ae",
     "url": "/index.html"
   },
   {
-    "revision": "1ed6f5a8a5a1fed68f36",
-    "url": "/static/css/main.475e77ad.chunk.css"
+    "revision": "ecc0e23fad9bbe70dbac",
+    "url": "/static/css/main.301909a5.chunk.css"
   },
   {
-    "revision": "a5c443c09ecce904adba",
-    "url": "/static/js/2.2e9c4bff.chunk.js"
+    "revision": "d1943f9ce1ef854cc587",
+    "url": "/static/js/2.cdf876a8.chunk.js"
   },
   {
-    "revision": "1ed6f5a8a5a1fed68f36",
-    "url": "/static/js/main.1f79c39d.chunk.js"
+    "revision": "ecc0e23fad9bbe70dbac",
+    "url": "/static/js/main.4c4f60a8.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "34ad7f6375b17bf4d7968a34afd5f833",
     "url": "/static/media/ios_step_3-min.34ad7f63.png"
+  },
+  {
+    "revision": "7bbe726e1bc8182db62e93d06730e355",
+    "url": "/static/media/logo-no-bg.7bbe726e.png"
   }
 ]);
