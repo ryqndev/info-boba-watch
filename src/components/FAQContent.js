@@ -42,6 +42,13 @@ const faq = [
         and ship a functionality we want to include. It's a priority and we hope 
         to have it done soon! In the meantime, you can shape your browser into
         the corresponding mobile dimensions to get the same effect`
+    },
+    {
+        title: `Having trouble logging in?`,
+        desc: `Try logging into boba watch in the browser and download the app after logging in. 
+        You're most likely running into this problem because of browser / OS incompatibilities. If
+        logging in through the browser doesn't work, please contact the developers(us) so we can 
+        fix it asap!`
     }   
 ];
 
