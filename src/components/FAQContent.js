@@ -45,11 +45,10 @@ const faq = [
     },
     {
         title: `Having trouble logging in?`,
-        desc: `Try logging into boba watch in the browser and download the app after logging in. 
-        You're most likely running into this problem because of browser / OS incompatibilities. If
-        logging in through the browser doesn't work, please contact the developers(us) so we can 
-        fix it asap!`
-    }   
+        desc: `Some iOS devices are having issues with PWA support, specifically with 
+        Facebook Authentication and so if all else fails, it logging in should work within
+         the browser rather than the installed PWA.`
+    }
 ];
 
 export default faq;
