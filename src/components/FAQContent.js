@@ -44,6 +44,11 @@ const faq = [
         the corresponding mobile dimensions to get the same effect`
     },
     {
+        title: `Drinks aren't updated on new device`,
+        desc: `Logging out and logging back in will ensure that your app makes a new call
+        to our server to retrieve the latest information stored on your account.`
+    },
+    {
         title: `Having trouble logging in?`,
         desc: `Some iOS devices are having issues with PWA support, specifically with 
         Facebook Authentication and so if all else fails, it logging in should work within
