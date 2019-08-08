@@ -1,7 +1,7 @@
 body{
     padding: 40px 0 40px 0;
-    background: linear-gradient(80deg, #FC8A8A, #FFAFA4, #FFD3B3);
-    min-height: 100vh;
+    /* background: linear-gradient(80deg, #FC8A8A, #FFAFA4, #FFD3B3); */
+    /* min-height: 100vh; */
 }
 .faq-section--label{
     font-size: 50px;
