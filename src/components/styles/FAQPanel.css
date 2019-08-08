@@ -7,12 +7,12 @@
 .faq-question--description{
     margin:  10px 0 10px 3vw;
     padding-left: 25px;
-    border-left: 3px solid rgb(216, 151, 151);
+    border-left: 3px solid rgb(255, 197, 197);
     line-height: 25px;
     color: #5f5f5f;
 }
 .thaman-color{
-    border-bottom: 2px solid rgb(248, 227, 227);
+    border-bottom: 1px solid rgb(255, 200, 200);
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
