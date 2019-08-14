@@ -49,10 +49,10 @@ const faq = [
         to our server to retrieve the latest information stored on your account.`
     },
     {
-        title: `Having trouble logging in?`,
-        desc: `Some iOS devices are having issues with PWA support, specifically with 
-        Facebook Authentication and so if all else fails, it logging in should work within
-         the browser rather than the installed PWA.`
+        title: `Public/private profile issues`,
+        desc: `Toggling the public setting on your user settings and getting a successful 
+        alert message will ensure that our database gets a new setting change. This problem
+        usually arises when you're using multiple devices and one has not updated.`
     }
 ];
 
