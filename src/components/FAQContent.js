@@ -53,6 +53,12 @@ const faq = [
         desc: `Toggling the public setting on your user settings and getting a successful 
         alert message will ensure that our database gets a new setting change. This problem
         usually arises when you're using multiple devices and one has not updated.`
+    },
+    {
+        title: `Suggestions/Features`,
+        desc: `We would LOVE to hear from the community to see what kind of features you 
+        would like to see. Let us know on our <a href="https://www.facebook.com/bobawatch/">
+         facebook page </a> and we'll try to get back to you!`
     }
 ];
 
