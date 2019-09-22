@@ -17,6 +17,11 @@ function App() {
             <div className="faq-holder">
                 <FAQHolder/>
             </div>
+            <div className="footer">
+                <a href="https://www.termsfeed.com/privacy-policy/e27edfdb317844b935f5c050baeed143"> Privacy Policy </a>
+                <a href="https://www.instagram.com/bingeboba/"> Instagram </a>
+                <a href="https://www.facebook.com/bobawatch/"> Facebook </a>
+            </div>
         </div>
     );
 }

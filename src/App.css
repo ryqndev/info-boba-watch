@@ -1,7 +1,5 @@
 body{
-    padding: 40px 0 40px 0;
-    /* background: linear-gradient(80deg, #FC8A8A, #FFAFA4, #FFD3B3); */
-    /* min-height: 100vh; */
+    padding: 40px 0 0 0;
 }
 .faq-section--label{
     font-size: 50px;
@@ -32,6 +30,33 @@ body{
     background-repeat: no-repeat;    
     margin-top: -45px;
 }
+.footer{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    border-top: solid 2px #ffc6c6;
+    background-color: #FFE0E0;
+    width: 100vw;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px 50px 15px 50px;
+}
+.footer > a {
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    text-decoration: none;
+    color: #ff8080;
+    transition: all 250ms;
+}
+.footer > a:visited {
+    color: #ff8080;
+}
+.footer > a:hover {
+    color: #151515;
+}
 
 @media only screen and (max-width: 800px){
     .faq-section--label{
@@ -53,5 +78,10 @@ body{
     }
     .faq-title--logo{  
         margin-top: 0;
+    }
+    .footer{
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        padding: 10px 50px 10px 50px;
     }
 }
