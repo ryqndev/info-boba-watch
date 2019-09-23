@@ -32,6 +32,9 @@
 .images-ios{
     height: 26.5vw;
 }
+.images-add{
+    height: 29.7vw;
+}
 .image{
     background-color: #FFAFA4;
     background-size: contain;
@@ -54,6 +57,12 @@
 }
 #ios-3{
     background-image: url('../../assets/ios_step_3-min.png');
+}
+#add-1{
+    background-image: url('../../assets/add_step_1-min.png');
+}
+#add-2{
+    background-image: url('../../assets/add_step_2-min.png');
 }
 
 @media only screen and (max-width: 800px){

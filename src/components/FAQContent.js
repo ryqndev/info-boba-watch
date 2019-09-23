@@ -36,6 +36,29 @@ const faq = [
         `
     },
     {
+        title: `How to use Boba Watch?`,
+        desc: `Boba Watch is a memey, finance focused app that keeps tracks of your boba drinking
+        metrics such as the time, place, and cost of the purchases you make. 
+        <br />
+        <br />
+        To get started, add a drink by pressing the ( + ) icon on the bottom of your home screen.
+        <div class="images images-add">
+        <div id="add-1" class="image"></div>
+        </div>
+        After pressing the add icon, the app should prompt you for details of what drink to add.
+        <div class="images images-add">
+        <div id="add-2" class="image"></div>
+        </div>
+        The only required sections are the price and the date/time. The date/time will automatically be set
+        to the current time and if you want to change it, simply tap on it to edit the time. The rest of 
+        the sections can be left blank although it's recommended to fill it out (with the exception of the description).
+        <br />
+        <br />
+        After filling out the details, tap "Add" to complete the process and wait for the confirmation prompt. Ensure you 
+        have a good internet connection or you can try at another time.
+        `
+    },
+    {
         title: `Why do I need a Facebook account to login?`,
         desc: `We don't want people to abuse our app by making a billion accounts and taking
         the service down for everyone so we currently use Facebook's login system since they 
