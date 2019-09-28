@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.eadc0d7354acca165a940b1bf9a7145b.js"
+  "/precache-manifest.e72e766b10f50e7e28ceef81b7f7532b.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -35,5 +35,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
+  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });
