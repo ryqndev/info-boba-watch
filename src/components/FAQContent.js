@@ -86,7 +86,10 @@ const faq = [
     },
     {
         title: `Public / private profile issues`,
-        desc: `Toggling the public setting on your user settings and getting a successful 
+        desc: `If you're a new user, make sure you have atleast one drink added. If
+        there's nothing to share, then you won't have a link.
+        <br />
+        Toggling the public setting on your user settings and getting a successful 
         alert message will ensure that our database gets a new setting change. This problem
         usually arises when you're using multiple devices and one has not updated.`
     },
